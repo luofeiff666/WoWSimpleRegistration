@@ -20,7 +20,7 @@ $language['change_lang_form_head'] = 'Select Language';
 $language['change_lang_sub'] = 'Change';
 
 $language['welcome_to'] = '欢迎来到';
-$language['welcome_message'] = '欢迎来到我的服务器，赶快加入我们吧！';
+$language['welcome_message'] = '欢迎来到我的服务器，赶快加入吧！';
 $language['get_started'] = '新手上路';
 $language['home'] = '主页';
 $language['about'] = '关于';
