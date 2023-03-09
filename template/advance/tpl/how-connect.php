@@ -32,6 +32,7 @@
                 </div>
                 <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
                     <i class="bx bx-server"></i>
+                    打开文件reamlist
                     <h4><?php elang('change_server_address'); ?></h4>
                     <p><?php elang('create_account_tip4'); ?>
                         <code>SET REALMLIST <?php echo strtoupper(get_config('realmlist')); ?></code></p>

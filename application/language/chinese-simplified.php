@@ -20,7 +20,7 @@ $language['change_lang_form_head'] = 'Select Language';
 $language['change_lang_sub'] = 'Change';
 
 $language['welcome_to'] = '欢迎来到';
-$language['welcome_message'] = '欢迎来到我们的服务器，赶快加入我们吧！';
+$language['welcome_message'] = '欢迎来到我的服务器，赶快加入我们吧！';
 $language['get_started'] = '新手上路';
 $language['home'] = '主页';
 $language['about'] = '关于';
@@ -44,7 +44,7 @@ $language['realmlist'] = '服务器列表';
 $language['create_account'] = '创建账户';
 $language['create_account_tip1'] = '首先，您必须创建一个帐户。该帐号用于登录游戏和我们的网站。<a href="#register">点击这里打开注册页面</a>';
 $language['download_game'] = '下载游戏';
-$language['create_account_tip2'] = '安装魔兽世界。你可以从这里(合法的)下载:Windows或Mac客户端。确保升级到当前支持的游戏版本，当前版本为'.get_config ('game_version').'。这里是<a href="https://pan.baidu.com/s/11Wo1kiyPp2vTDYuE5atqMA?pwd=392q">下载地址</a>。如果你有此版本客户端请直接看下一条。';
+$language['create_account_tip2'] = '安装魔兽世界。你可以从这里(合法的)下载:Windows或Mac客户端。确保升级到当前支持的游戏版本，当前版本为'.get_config ('game_version').'。这里是<a target="__blank" href="https://pan.baidu.com/s/11Wo1kiyPp2vTDYuE5atqMA?pwd=392q">下载地址</a>。如果你有此版本客户端请直接看下一条。';
 $language['setup_game'] = '安装游戏';
 $language['create_account_tip3'] = '打开"魔兽世界"目录。默认目录是"C:\Program Files\World of Warcraft"。进入目录后，打开名为"data"的目录，然后进入名为zhCN或enGB或enUS的目录（取决于你的客户端语言）。';
 $language['change_server_address'] = '修改服务器地址';
