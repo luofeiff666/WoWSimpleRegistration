@@ -8,7 +8,7 @@
 use SebastianBergmann\Timer\Timer;
 ?>
 </main>
-<footer id="footer">
+<!-- <footer id="footer">
     <div class="footer-top">
         <div class="container">
             <div class="social-links" data-aos="fade-up" data-aos-delay="100">
@@ -28,7 +28,7 @@ use SebastianBergmann\Timer\Timer;
                     href="http://masterking32.com">Amin.MasterkinG</a>
         </div>
     </div>
-</footer>
+</footer> -->
 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 <script src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/vendor/jquery/jquery.min.js"></script>
 <script src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
