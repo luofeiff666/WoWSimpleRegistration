@@ -7,7 +7,7 @@
  */
 ?>
 <section id="faq" class="faq">
-    <div class="container">
+    <!-- <div class="container">
         <div class="section-title" data-aos="fade-up">
             <h2><?php elang('frequently_questions'); ?></h2>
         </div>
@@ -43,5 +43,5 @@
                 </div>
             </li>
         </ul>
-    </div>
+    </div> -->
 </section>
