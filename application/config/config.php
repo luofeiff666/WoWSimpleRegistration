@@ -182,9 +182,13 @@ captcha_language
 =====================================================================
 ******Uncomment extension=gd2 in your php.ini******
 =====================================================================*/
-$config['captcha_type'] = 1;
-$config['captcha_key'] = 'e2a66d42-3f05-4dce-8316-860762464f32';
-$config['captcha_secret'] = '0x7e263E283445b5Ec27D49a6a06dd5Ce1c72e99F6';
+// $config['captcha_type'] = 1;
+// $config['captcha_key'] = 'e2a66d42-3f05-4dce-8316-860762464f32';
+// $config['captcha_secret'] = '0x7e263E283445b5Ec27D49a6a06dd5Ce1c72e99F6';
+// $config['captcha_language'] = 'zh';
+$config['captcha_type'] = 2;
+$config['captcha_key'] = '6LfmguYkAAAAAKGwC_pMYhDkrbBSu_a9jdvXDJww';
+$config['captcha_secret'] = '6LfmguYkAAAAANUdJG3ta6--u1BVgr4NmmjiJKSN';
 $config['captcha_language'] = 'zh';
 /*===================================================================
 soap_for_register
