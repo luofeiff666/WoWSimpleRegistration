@@ -17,8 +17,8 @@ supported_langs
 	List of languages supported, You can remove each language you don't want!
 	if you want to disable language changer, Change it to: $config['supported_langs'] = false;
 =====================================================================*/
-$config['baseurl'] = "http://192.168.1.221"; // MAKE SURE USE VALID URL, If you have any issue loading images and template please check this field
-$config['page_title'] = "Simple Register";
+$config['baseurl'] = "https://wow.zhchao.top:18886"; // MAKE SURE USE VALID URL, If you have any issue loading images and template please check this field
+$config['page_title'] = "魔兽世界";
 $config['language'] = "chinese-simplified";
 $config['supported_langs'] = [
 	'english' => 'English',
@@ -47,8 +47,8 @@ patch_location
 game_version
     Your game version
 =====================================================================*/
-$config['realmlist'] = 'logon.myserver.com';
-$config['patch_location'] = 'http://mypatch.com/patch.mpq';
+$config['realmlist'] = 'zhchao.top';
+$config['patch_location'] = 'http://zhchao.top/patch.mpq';
 $config['game_version'] = '3.3.5a (12340)';
 /*===================================================================
 Select your server expansion.
@@ -87,7 +87,7 @@ You need to enable the GMP extension for PHP.
 ***************** GMP REQUIRED ********************
 ******Uncomment extension=gmp in your php.ini******
 =====================================================================*/
-$config['srp6_support'] = false; // READ COMMENTS, [Please ENABLE GMP]
+$config['srp6_support'] = true; // READ COMMENTS, [Please ENABLE GMP]
 /*===================================================================
 If you have an issue with top players or online players you can disable them!
 disable_top_players
@@ -113,7 +113,7 @@ icecrown
 kaelthas
 battleforazeroth
 =====================================================================*/
-$config['template'] = 'light';
+$config['template'] = 'advance';
 /*===================================================================
 SMTP config.
 We need this part to send an email. (used for restore password and 2FA)
@@ -148,7 +148,7 @@ vote_system
 vote_sites
     Your vote sites and images, must be array.
 =====================================================================*/
-$config['vote_system'] = true;
+$config['vote_system'] = false;
 $config['vote_sites'] = array(
     array(
         'image' => 'http://www.top100arena.com/hit.asp?id=93137&c=WoW&t=2',
@@ -273,7 +273,7 @@ $config['db_auth_host'] = '192.168.1.221';
 $config['db_auth_port'] = '3306';
 $config['db_auth_user'] = 'acore';
 $config['db_auth_pass'] = 'xiangzi123';
-$config['db_auth_dbname'] = 'realmd';
+$config['db_auth_dbname'] = 'acore_auth';
 /*===================================================================
 Your character's databases.
 If your server has a lot of realms you can check the example at the bottom of the file.
@@ -281,12 +281,12 @@ If your server has a lot of realms you can check the example at the bottom of th
 $config['realmlists'] = array(
     "1" => array(
         'realmid' => 1, // Realm ID
-        'realmname' => "Realm 1", // Realm Name
+        'realmname' => "瓜渚湖", // Realm Name
         'db_host' => "192.168.1.221", // MySQL Host IP
         'db_port' => "3306", // MySQL Host Port
         'db_user' => "acore", // MySQL username
         'db_pass' => 'xiangzi123', // MySQL password
-        'db_name' => "realm1_characters" // Characters database name
+        'db_name' => "acore_characters" // Characters database name
     )
 );
 
