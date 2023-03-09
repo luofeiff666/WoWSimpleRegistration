@@ -457,7 +457,7 @@ require_once 'rules.php';
     </div>
 </section>
 <?php
-// require_once 'faq.php';
-// require_once 'contact.php';
-// require_once 'footer.php';
+require_once 'faq.php';
+require_once 'contact.php';
+require_once 'footer.php';
 ?>
