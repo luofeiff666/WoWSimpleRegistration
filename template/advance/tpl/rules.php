@@ -20,37 +20,46 @@
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="100">
                             <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span> <?php elang('rule'); ?>
-                                1<i
+                                <i
                                         class="bx bx-chevron-down icon-show"></i><i
                                         class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
+                                <!-- <p>
+                                    <?php elang('rule'); ?>
+                                </p> -->
                                 <p>
-                                    <?php elang('rule'); ?> 1
+                                    首先欢迎你的加入！此服务是基于azerothcore搭建的wlk3.35版本的私人服务。默认官服设定基本不会有大的改动。
+                                    <!-- <?php elang('edit_on'); ?> <b>"/template/advance/tpl/rules.php"</b>. -->
                                 </p>
                                 <p>
-                                    <?php elang('edit_on'); ?> <b>"/template/advance/tpl/rules.php"</b>.
+                                  由于是私人服务，本意是为自己和朋友提供一个心灵的乌托邦。所以不必刻意对外宣传。当然可以邀请自己信任的朋友一起加入其中。这也是我开这个服务的初衷。
+                                  </p>
+                                  <p>
+                                  由于是个人搭建，本服务不盈利，不商业化，不提供任何定制化的服务。
                                 </p>
                             </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="200">
                             <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span>
-                                <?php elang('rule'); ?> 2<i
+                                <?php elang('rule'); ?> <i
                                         class="bx bx-chevron-down icon-show"></i><i
                                         class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
                                 <p>
-                                    <?php elang('rule'); ?> 2
+                                    <!-- <?php elang('rule'); ?> 2 -->
+                                    QQ交流群：<code>168451710</code>
                                 </p>
                             </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="300">
                             <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>03</span>
-                                <?php elang('rule'); ?> 3<i
+                                <?php elang('rule'); ?> <i
                                         class="bx bx-chevron-down icon-show"></i><i
                                         class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
                                 <p>
-                                    <?php elang('rule'); ?> 3
+                                    <!-- <?php elang('rule'); ?> 3 -->
+                                  服务器信息 CUP：X86 N5095 ARM 8G 电信千兆
                                 </p>
                             </div>
                         </li>

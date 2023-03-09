@@ -34,10 +34,10 @@
                     <i class="bx bx-server"></i>
                     <h4><?php elang('change_server_address'); ?></h4>
                     <p><?php elang('create_account_tip4'); ?>
-                        <code><?php echo strtoupper(get_config('realmlist')); ?></code></p>
-                    <p>
+                        <code>SET REALMLIST <?php echo strtoupper(get_config('realmlist')); ?></code></p>
+                    <!-- <p>
                         <?php elang('edit_on'); ?> <b>"/template/advance/tpl/how-connect.php"</b>.
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <div class="image col-lg-6 order-1 order-lg-2"
