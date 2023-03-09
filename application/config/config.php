@@ -133,13 +133,13 @@ smtp_secure
 smtp_mail
     Send emails by ...
 =====================================================================*/
-$config['smtp_host'] = 'smtp1.example.com';
+$config['smtp_host'] = 'smtp.gmail.com';
 $config['smtp_port'] = 587;
 $config['smtp_auth'] = true;
-$config['smtp_user'] = 'user@example.com';
-$config['smtp_pass'] = 'SECRET';
+$config['smtp_user'] = 'luofeiff666@gmail.com';
+$config['smtp_pass'] = 'xiangzi123!@#';
 $config['smtp_secure'] = 'tls';
-$config['smtp_mail'] = 'no-reply@example.com';
+$config['smtp_mail'] = 'luofeiff666@gmail.com';
 /*===================================================================
 vote_system
     You can enable/disable vote system.
