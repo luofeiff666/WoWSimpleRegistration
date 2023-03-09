@@ -7,7 +7,7 @@
  */
 ?>
 <section id="contact" class="contact section-bg">
-        <div class="container">
+        <!-- <div class="container">
             <div class="section-title">
                 <h2><?php elang('contact'); ?></h2>
                 <p><?php elang('edit_on'); ?> <b>"/template/advance/tpl/contact.php"</b>.</p>
@@ -38,5 +38,5 @@
                             style="border:0;width: 100%; height: 100%;"></iframe>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
