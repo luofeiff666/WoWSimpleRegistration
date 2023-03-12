@@ -33,8 +33,7 @@
                 <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
                     <i class="bx bx-server"></i>
                     <h4><?php elang('change_server_address'); ?></h4>
-                    打开文件reamlist.wft
-                    <p><?php elang('create_account_tip4'); ?>
+                    <p>打开文件reamlist.wft,<?php elang('create_account_tip4'); ?>
                         <code>SET REALMLIST <?php echo strtoupper(get_config('realmlist')); ?></code></p>
                     <!-- <p>
                         <?php elang('edit_on'); ?> <b>"/template/advance/tpl/how-connect.php"</b>.
