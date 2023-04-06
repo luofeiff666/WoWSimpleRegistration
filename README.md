@@ -4,7 +4,7 @@ With this script, You can make a website for your game server.
 
 Support : [AzerothCore](http://azerothcore.org), [TrinityCore](http://TrinityCore.org), [AshamaneCore](https://github.com/AshamaneProject/AshamaneCore/), [CMangos](https://github.com/cmangos/).
 
-
+## 这是php的魔兽注册网站， 后面计划改成Next版本
 ## Requirement : PHP >= 7.0
 
 Enable gmp, gd, soap, mbstring, pdo and pdo-mysql.
